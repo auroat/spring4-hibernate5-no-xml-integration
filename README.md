@@ -9,7 +9,8 @@ If following the 1) reference, then besides it's setup, you need to provide:
 db.url=jdbc:mysql://localhost:3306/BORAJI?useTimezone=true&serverTimezone=UTC
 // Hibernate properties
 hibernate.dialect=org.hibernate.dialect.MySQLDialect
-AppConfig:
+
+AppConfig.java:
 getSessionFactory() method:
 props.put("hibernate.dialect", env.getProperty("hibernate.dialect"));”
 
