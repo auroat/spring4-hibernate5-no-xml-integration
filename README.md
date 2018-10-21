@@ -1,0 +1,1 @@
+# spring4-hibernate5-no-xml-integration
