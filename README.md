@@ -6,9 +6,9 @@ The DB connectivity details are in the db.properties file.
 If following the 1) reference, then besides it's setup, you need to provide:
 “
 db.properties:
-# MySQL properties
+// MySQL properties
 db.url=jdbc:mysql://localhost:3306/BORAJI?useTimezone=true&serverTimezone=UTC
-# Hibernate properties
+// Hibernate properties
 hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 AppConfig:
